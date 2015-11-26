@@ -10,5 +10,7 @@ Thereby, the objective of NotedIt is to make easier to put anything at google no
 
 NotedIt is my first chrome extension :smile:. I also plan to work at ChatOne, a chrome app to join facebook messenger, hangouts and whatsapp messenger at an unique chat that can be easily used. 
 
+PS: yes, I like emojis :v:! 
+
 Copyright MLM, Marianne Linhares Monteiro.
 mariannelinharesm@gmail.com. 
