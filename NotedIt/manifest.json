@@ -1,0 +1,27 @@
+{
+    "name": "NotedIt",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    
+    "description" : "Description ...",
+    "icons": { "16": "icon.png", "48": "icon.png", "128": "icon.png" },
+    "omnibox": { "keyword" : "yeah" },
+    "browser_action": {
+        "default_icon": { "19": "icon.png", "38": "icon.png" },
+        "default_title": "That's the tool tip",
+        "default_popup": "index.html"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "chrome_url_overrides" : {
+        "newtab": "newtab.html"
+    },
+    
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["content.js"]
+    }],
+    "devtools_page": "devtools.html"
+}
