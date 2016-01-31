@@ -1,4 +1,4 @@
-# NotedIt
+# NotedIt - work in process...
 
 NotedIt is a chrome extension that uses [GoogleKeep](http://www.google.com/keep/) e [GoogleCalendar](https://www.google.com/calendar).
 
