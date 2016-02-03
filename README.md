@@ -2,7 +2,7 @@
 
 NotedIt is a chrome extension that uses [GoogleKeep](http://www.google.com/keep/) e [GoogleCalendar](https://www.google.com/calendar).
 
-The main idea is: it's normal to have a lot of stuff to do and to remind it you can put a note at [GoogleKeep](http://www.google.com/keep/) or create an event at [GoogleCalendar](https://www.google.com/calendar).
+The main idea is: it's normal to have a lot of stuff to do and in order to remind it you can put a note at [GoogleKeep](http://www.google.com/keep/) or create an event at [GoogleCalendar](https://www.google.com/calendar).
 
 Sometimes a task is about something you read at a news web-site, an e-mail, something someone said to you at chat, or even some task you told you would do to someone at facebook! You can't forget it, right? But you already forgot to put this information at calendar or notes, because the app was closed and the role process of open it was too much for you. So you definitely won't remember it now :disappointed:.
 
