@@ -1,4 +1,6 @@
-# SpotifYoutube - Beta version
+# SpotifYoutube - 0.0.2
+
+Get it now at [Chrome Web Store](https://chrome.google.com/webstore/detail/spotifyoutube/ankphgpmnicdkehhmnklhlodkfkecjbh)!
 
 SpotifYoutube is a chrome extension that connects youtube with spotify through a button that allows users to go to music videos from Youtube to  musics, albums or bands in Spotify.
 
