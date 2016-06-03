@@ -7,9 +7,8 @@ var getSongTitle = function() {
     var title = $.trim($('#eow-title[title]').text().replace(/'/g, ""));
     title = title.replace(/(\[.*?\]|\(.*?\)) */g, "").trim(); 
     title = title.replace("-", "OR");
-    title = title.replace("|", "OR");
-    title = title.replace(/[0-9]/g, '');
-    title = title.replace(/DVD|HD|CD|Album/g, '');
+    title = title.replace(":", '');
+    title = title.replace(/DVD|HD|CD|full performance|full album|album|lyric video|with lyrics|w\/lyrics|lyrics|lyric|official video|"|'/ig, '');
     title = title.split('OR');
     if(title[0] == "") {
             title = title[1] + " OR " + title[2];
@@ -36,5 +35,5 @@ var createSpotifyButton = function() {
 }
 
 var waitAndCreateButton = function() {
-    setTimeout(createSpotifyButton, 5000);
+    setTimeout(createSpotifyButton, 6000);
 }
