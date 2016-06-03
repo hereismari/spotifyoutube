@@ -14,8 +14,8 @@
     },
 
     "background": {
-        "scripts" : ["src/background/background.js"],
-        "persistent" : false
+        "page" : "src/background/background.html",
+        "persistent" : true
     },
 
     "content_scripts": [{

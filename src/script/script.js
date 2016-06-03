@@ -1,5 +1,4 @@
-var port = chrome.runtime.connect({name:"script"});
-port.onMessage.addListener(function(){
+chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     waitAndCreateButton();
 });
 
