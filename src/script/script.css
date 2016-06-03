@@ -1,0 +1,27 @@
+#spotify {
+    
+    top: -26px;
+    left: 240px;
+    height: 19px;
+    width: 140px;
+    float: left;
+    display: inline-block;
+    position: relative;
+    
+    text-align: center;
+    padding: 2px;
+    clear: both;
+    color: white;
+    border-radius: 2px;
+
+    background-color: #1FBF66;
+    background-size: 15px;
+    background-position: 6px 3px;
+    background-repeat: no-repeat;
+}
+
+#spotify:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #17DB6E;
+}
