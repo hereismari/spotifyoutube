@@ -14,14 +14,14 @@
     color: white;
     border-radius: 2px;
 
-    background-color: #1FBF66;
+    background-color: #17DB6E;
     background-size: 15px;
     background-position: 6px 3px;
     background-repeat: no-repeat;
 }
 
 #spotify:hover {
-  cursor: pointer;
-  text-decoration: none;
-  background-color: #17DB6E;
+    background-color: #1FBF66;
+    cursor: pointer;
+    text-decoration: none;
 }
