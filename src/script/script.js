@@ -7,7 +7,8 @@ var getSongTitle = function() {
     title = title.replace(/(\[.*?\]|\(.*?\)) */g, "").trim(); 
     title = title.replace("-", "OR");
     title = title.replace(":", '');
-    title = title.replace(/DVD|HD|CD|full performance|full album|album|lyric video|with lyrics|w\/lyrics|lyrics|lyric|official video|"|'/ig, '');
+    title = title.replace("/#|.|&/ig", '');
+    title = title.replace(/DVD|HD|CD|FT|ft|full performance|full album|album|lyric video|with lyrics|w\/lyrics|lyrics|lyric|official video|"|'/ig, '');
     title = title.split('OR');
     if(title[0] == "") {
             title = title[1] + " OR " + title[2];
