@@ -1,4 +1,4 @@
-# SpotifYoutube - 0.0.2
+# SpotifYoutube - 1.0.0
 
 Get it now at [Chrome Web Store](https://chrome.google.com/webstore/detail/spotifyoutube/ankphgpmnicdkehhmnklhlodkfkecjbh)!
 
